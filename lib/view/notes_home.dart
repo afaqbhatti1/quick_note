@@ -56,8 +56,9 @@ class NotesHomePage extends StatelessWidget {
                       notesProvider.searchNotes(value);
                     },
                     decoration: const InputDecoration(
-                      labelText: 'Search',
+                      labelText: 'Search by title or category',
                       border: OutlineInputBorder(),
+                      suffixIcon: Icon(Icons.search),
                     ),
                   ),
                 ),
